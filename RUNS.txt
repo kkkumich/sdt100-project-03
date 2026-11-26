@@ -1,3 +1,20 @@
+===== class3_flowcharts.Main.txt =====
+INPUT: true, true, false
+OUTPUT:
+Hello!
+Is it Saturday? (true/false): Is it raining? (true/false): Are you in Britain? (true/false): Walk, according to the lecture diagram: Yes!
+Picnic: false
+Truth table: Saturday Raining Britain -> Picnic
+false false false -> false
+false false true -> false
+false true false -> false
+false true true -> false
+true false false -> true
+true false true -> true
+true true false -> false
+true true true -> true
+
+
 ===== part1_conditions.Main.txt =====
 COMMAND: java -cp build part1_conditions.Main
 INPUT (demo data):
