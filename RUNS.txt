@@ -1,0 +1,35 @@
+===== part1_conditions.Main.txt =====
+COMMAND: java -cp build part1_conditions.Main
+INPUT (demo data):
+18
+yes
+mon
+
+OUTPUT:
+Age (0-120): ==18: true; !=18: false; >18: false; <18: false; <=18: true; >=18: true
+Are you a student? (yes/no): Adult student.
+Youth or student category.
+Ask for a student discount.
+Weekday (mon/tue/etc.): Weekday
+Exact yes comparison: true
+
+
+===== part2_activity.Main.txt =====
+COMMAND: java -cp build part2_activity.Main
+INPUT (demo data):
+Demo
+23
+
+OUTPUT:
+Your name: Your age (0-120): Demo, your likely activity: Boundary age: please clarify your current activity.
+
+
+===== part3_recommender.Main.txt =====
+COMMAND: java -cp build part3_recommender.Main
+INPUT (demo data):
+Demo
+15
+detective
+
+OUTPUT:
+Your name: Age (0-120): Genre (detective/fantasy/non-fiction/other): Demo, try reading: The Westing Game
